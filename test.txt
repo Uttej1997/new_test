@@ -100,3 +100,32 @@ TOSHIBA@DESKTOP-27T5VDS MINGW64 /d/test repository (master)
 $ git push origin master
 Everything up-to-date
 
+TOSHIBA@DESKTOP-27T5VDS MINGW64 /d/test repository (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+TOSHIBA@DESKTOP-27T5VDS MINGW64 /d/test repository (master)
+$ git add .
+
+TOSHIBA@DESKTOP-27T5VDS MINGW64 /d/test repository (master)
+$ git commit -m "Code Added"
+[master fa21be1] Code Added
+ 1 file changed, 100 insertions(+)
+
+TOSHIBA@DESKTOP-27T5VDS MINGW64 /d/test repository (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.17 KiB | 42.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Uttej1997/new_test.git
+   4c42c45..fa21be1  master -> master
+
