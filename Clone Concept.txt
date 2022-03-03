@@ -1,0 +1,29 @@
+
+TOSHIBA@DESKTOP-27T5VDS MINGW64 /d/MyAnotherRepository
+$ git clone https://github.com/Uttej1997/new_test.git
+
+Cloning into 'new_test'...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 21 (delta 2), reused 20 (delta 1), pack-reused 0
+Receiving objects: 100% (21/21), 4.33 KiB | 201.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
