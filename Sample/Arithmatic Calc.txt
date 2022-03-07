@@ -1,0 +1,32 @@
+Now let us understand the program.
+
+The two numbers as well as the operator is acquired from the user. The code snippet that demonstrates this is given as follows −
+
+double num1;
+double num2;
+double ans;
+char op;
+Scanner reader = new Scanner(System.in);
+System.out.print("Enter two numbers: ");
+num1 = reader.nextDouble();
+num2 = reader.nextDouble();
+System.out.print("\nEnter an operator (+, -, *, /): ");
+op = reader.next().charAt(0);
+A switch case is used to perform the specified operation on the two numbers. If the operator entered is incorrect, an error message is displayed. The code snippet that demonstrates this is given as follows −
+
+switch(op) {
+   case '+': ans = num1 + num2;
+      break;
+   case '-': ans = num1 - num2;
+      break;
+   case '*': ans = num1 * num2;
+      break;
+   case '/': ans = num1 / num2;
+      break;
+default: System.out.printf("Error! Enter correct operator");
+return;
+}
+Finally, the result is printed. The code snippet that demonstrates this is given as follows −
+
+System.out.print("\nThe result is given as follows:\n");
+System.out.printf(num1 + " " + op + " " + num2 + " = " + ans);
